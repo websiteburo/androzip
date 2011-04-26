@@ -1,0 +1,17 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 0.1
+description: My module
+author: Your Name
+license: Specify your license
+copyright: Copyright (c) 2010 by Your Company
+
+
+# these should not be edited
+name: androzip
+moduleid: com.websiteburo.androzip
+guid: fe69da60-ff54-47f3-94b5-eb2a4c08dadd
+platform: android
+minsdk: 1.6.2
