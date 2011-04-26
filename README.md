@@ -34,7 +34,7 @@ Register the androzip module with your application by editing 'tiapp.xml' and ad
 Put this into your code : 
 
 	var androzip = require("com.websiteburo.androzip");
-	androzip.extract(path_to_zip_file, dir_to_extract)
+	androzip.extract(path_to_zip_file, dir_to_extract);
 
 
 Example
