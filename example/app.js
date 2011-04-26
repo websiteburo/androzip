@@ -16,7 +16,7 @@ Ti.API.info("module is => " + androzip);
 
  
 xhr.onload = function(){
-   var f = Ti.Filesystem.getFile(Ti.Filesystem.applicationDataDirectory, 'mapimages.6.zip');
+   var f = Ti.Filesystem.getFile(Ti.Filesystem.applicationDataDirectory, 'test.zip');
    var fdir = Ti.Filesystem.getFile(Ti.Filesystem.applicationDataDirectory);
    f.write(this.responseData);
    androzip.extract(f.nativePath, fdir.nativePath);

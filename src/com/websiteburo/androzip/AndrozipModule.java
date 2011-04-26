@@ -28,10 +28,7 @@ public class AndrozipModule extends KrollModule
 		int plen = "file://".length();
 		sourcefile = sourcefile.substring(plen);
 		dirout = dirout.substring(plen);
-		if(!sourcefile.endsWith(".zip")){
-			Log.d(LCAT, "Invalid file name!");
-	    }
-	    else if(!new File(sourcefile).exists()){
+		if(!new File(sourcefile).exists()){
 	    	Log.d(LCAT, "File not exist : " + sourcefile + "!");
 	    }
 	    else {
