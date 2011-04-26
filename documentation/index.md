@@ -17,23 +17,24 @@ The androzip variable is a reference to the Module object.
 Install
 =======
 
-1.Download or build from source androzip module.
-2.Place com.websiteburo.androzip-android-x.y.z.zip file to /Library/Application Support/Titanium and unzip it.
+1. Download or build from source androzip module.
+2. Place com.websiteburo.androzip-android-x.y.z.zip file to /Library/Application Support/Titanium and unzip it.
 
 How to use
 ==========
 
-1.Register the androzip module with your application by editing 'tiapp.xml' and adding the module:
+Register the androzip module with your application by editing 'tiapp.xml' and adding the module:
 
-<modules>
-	<module version="0.1">com.websiteburo.androzip</module>
-</modules>
+	
+	<modules>
+		<module version="0.1">com.websiteburo.androzip</module>
+	</modules>
 
-2. 
 
-var androzip = require("com.websiteburo.androzip");
-androzip.extract(path_to_zip_file, dir_to_extract)
+Put this into your code : 
 
+	var androzip = require("com.websiteburo.androzip");
+	androzip.extract(path_to_zip_file, dir_to_extract);
 
 
 Example
