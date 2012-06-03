@@ -15,3 +15,4 @@ moduleid: com.websiteburo.androzip
 guid: fe69da60-ff54-47f3-94b5-eb2a4c08dadd
 platform: android
 minsdk: 1.6.2
+apiversion: 2
